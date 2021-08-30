@@ -1,0 +1,157 @@
+.nav{
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(255, 203, 229);
+    width: 100%;
+}
+
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+
+.nav > li > a {
+    color:#f04561;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.paddingTB{
+    padding: 15px;
+}
+
+.container-img {
+    padding: 10px;
+}
+
+.container-title > h1{
+    padding: 25px;
+    color: rgb(223 24 130);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-informacion{
+    background-color: rgb(223 24 130);
+    color: white;
+}
+
+/* vista desktop */
+@media only screen and (min-width: 1024px){
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
+    }
+}
+
+/* vista mobile */
+@media only screen and (max-width: 742px){
+    .nav{
+        height: 100px;
+        padding: 10px;
+        background-color: rgb(255, 203, 229);
+        width: 100%;
+    }
+    .container-img {
+        padding: 20px;
+    }
+    .container-img > .img-fluid{
+        height: 100px;
+        width: 100px;
+    }
+    .container-map{
+        width: 100%;
+        height: 50%;
+    }
+    .container-contact-mobile{
+        padding: auto;
+        
+    }
+    .footerOtherPages {
+        color:rgb(223 24 130);
+        background-color: #ffc0cb;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        bottom: 0;
+    }
+    .container-services{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .img-mobile{
+        width: 50px;
+        height: 50px;
+    }
+  
+}
+
+/*Nosotros*/
+.container-nosotros{
+    padding: 50px;
+}
+
+#body-image{
+    background-image: url("../img/nosotros.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+}
+
+h3.titulo-nosotros {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.footerOtherPages {
+    color:rgb(223 24 130);
+    background-color: #ffc0cb;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer {
+    color: rgb(223 24 130);
+    background-color: #ffc0cb;
+}
+
+.footer h6, p, a {
+    color:rgb(223 24 130);
+    text-align: center;
+}
+
+/*Servicios*/
+.card-header {
+    background-color:#f04561;
+    color: white;
+}
+
+.container-services{
+    padding: 25px;
+}
+
+.container-map{
+    padding: 25px;
+}
+
+.title-envios{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(223 24 130);
+}
+
+.container-contact{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.contactanos-contacto{
+    color:rgb(223 24 130);
+    padding: 20px;
+}
+
+form > .card{
+    padding:50px;
+}
